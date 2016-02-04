@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\My Tools\openFrameworks\of_v0.9.0_vs_release\addons\ofxBlur\src\ofxBlur.cpp">
+      <Filter>addons\ofxBlur\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\My Tools\openFrameworks\of_v0.9.0_vs_release\addons\ofxCameraFilter\src\ofxCameraFilter.cpp">
+      <Filter>addons\ofxCameraFilter\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{7c80649f-6c7a-46cf-9690-0297508a9452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxBlur">
+      <UniqueIdentifier>{a5de243b-29c7-4641-b394-dd254eed15da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxBlur\src">
+      <UniqueIdentifier>{6400054c-5e0d-47d4-9f1b-6fe1831eecfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCameraFilter">
+      <UniqueIdentifier>{2102e983-8bc5-47aa-9ab1-94cc5d8ba70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCameraFilter\src">
+      <UniqueIdentifier>{6bc01d72-9d08-4091-b895-aee050b892a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\My Tools\openFrameworks\of_v0.9.0_vs_release\addons\ofxBlur\src\ofxBlur.h">
+      <Filter>addons\ofxBlur\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\My Tools\openFrameworks\of_v0.9.0_vs_release\addons\ofxCameraFilter\src\CameraFilter.frag.h">
+      <Filter>addons\ofxCameraFilter\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\My Tools\openFrameworks\of_v0.9.0_vs_release\addons\ofxCameraFilter\src\ofxCameraFilter.h">
+      <Filter>addons\ofxCameraFilter\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
